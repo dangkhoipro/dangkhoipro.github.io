@@ -1,0 +1,17 @@
+{
+    "name": "ndk-nguyen-portfolio",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start-tailwind": "npx tailwindcss -i ./src/input.css -o ./public/style.css --watch"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {},
+    "devDependencies": {
+        "tailwindcss": "^3.0.23"
+    }
+}
