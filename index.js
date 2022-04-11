@@ -26,21 +26,4 @@ function handleForm() {
     });
 }
 
-function sendEmail(data) {
-    Email.send({
-        Host: "smtp.elasticemail.com",
-        Username: "dangkhoi.tinhoc1@gmail.com",
-        Password: "9E0D93DFA276091DCD5AEFA027BC7A78A553",
-        To: 'dangkhoi.tinhoc1@gmail.com',
-        From: data.email,
-        Subject: `${data.name || 'Someone'} contacted me via github page`,
-        Body: data.content
-    }).then(message => {
-        alert(message);
-        const form = document.querySelector('#form');
-        form.reset();
-    });
-}
-
 handleSideBar();
-handleForm();
