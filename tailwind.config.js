@@ -2,7 +2,7 @@ const defaultTheme = require('tailwindcss/defaultTheme');
 const colors = require('tailwindcss/colors');
 
 module.exports = {
-  content: ["./public/*.{html,js}"],
+  content: ["./*.{html,js}"],
   theme: {
     colors: {
       'primary': '#2930D2',
